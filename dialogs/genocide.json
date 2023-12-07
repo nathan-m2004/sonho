@@ -1,0 +1,922 @@
+{
+  "dialogo1": {
+    "paragraph": [
+      "<br>*BANG*<br>"
+    ],
+    "image": "",
+    "buttons": [
+      {
+        "text": "Continuar"
+      }
+    ]
+  },
+  "dialogo2": {
+    "paragraph": [
+      "--Perfeito, agora saí daí, antes que mais alguém que escutou o tiro venha pra cá.",
+      "--P: E se vierem?",
+      "--Então a gente mata eles também",
+      "<br>*P sai correndo do prédio, e se esconde em um beco*<br>"
+    ],
+    "image": "",
+    "buttons": [
+      {
+        "text": "Continuar"
+      }
+    ]
+  },
+  "dialogo3": {
+    "paragraph": [
+      "--É melhor a gente se posicionar em um lugar inteligente, a gente não sabe se ele tá sozinho ainda.",
+      "--P: E se tiver alguém não acho que está pistola não vai ser o suficiente.",
+      "--Vê se arranja alguma coisa menos pior que ela, vai precisar."
+    ],
+    "image": "",
+    "buttons": [
+      {
+        "text": "Continuar"
+      }
+    ]
+  },
+  "dialogo4": {
+    "paragraph": [
+      "<br>*Dois soldados param na frente do beco*<br>",
+      "-Soldado 1: Será que ele foi longe?",
+      "-Soldado 2: Não deve ter conseguido com tão pouco tempo.",
+      "-Soldado 1: E se a gente achar ele?",
+      "-Soldado 2:..."
+    ],
+    "image": "",
+    "buttons": [
+      {
+        "text": "Continuar"
+      }
+    ]
+  },
+  "dialogo5": {
+    "paragraph": [
+      "--É melhor não descobrir o que eles querem fazer, é a hora de fazer alguma coisa! VAMOS DAR UM JEITO DE MATAR ELES!"
+    ],
+    "image": "",
+    "buttons": [
+      {
+        "text": "Esperar os soldados no ponto de encontro deles."
+      },
+      {
+        "text": "Esperar o melhor momento para atacar."
+      },
+      {
+        "text": "Ameaçar eles."
+      },
+      {
+        "text": "MATAR ELES!"
+      }
+    ]
+  },
+  "dialogo6": {
+    "paragraph": [
+      "--Da pra esperar os dois dentro do lugar que eles pretendem se encontrar.",
+      "--P: O que eu faria lá?",
+      "--Matar eles, eles não parecem que vão parar até você ser morto por eles, prefere que eles te matem?",
+      "--P: Mas matar é a única solução?",
+      "--Pelo pouco que vi desses soldados, matar é a única coisa que eles se importam."
+    ],
+    "image": "",
+    "buttons": [
+      {
+        "text": "Continuar"
+      }
+    ]
+  },
+  "dialogo7": {
+    "paragraph": [
+      "-Soldado 2:...Ele matou o moleque com um tiro, mas saiu correndo depois, não tão deve ser perigoso ou experiente nisso.",
+      "-Soldado 1:Quer continuar procurando ele pro outro lado? A essa altura ele deve tá no meio da floresta.",
+      "-Soldado 2: Vai pra um lado que eu vou pro outro, vamos se encontra no prédio principal daqui a um tempinho procurando.",
+      "<br>*Os soldados se separam e vão pra lados diferentes. O soldado 1 vai para a esquerda e o soldado 2 para a direita*<br>"
+    ],
+    "image": "",
+    "buttons": [
+      {
+        "text": "Continuar"
+      }
+    ]
+  },
+  "dialogo8": {
+    "paragraph": [
+      "--É a melhor chance que você tem de matar eles"
+    ],
+    "image": "",
+    "buttons": [
+      {
+        "text": "Esquerda"
+      },
+      {
+        "text": "Direita"
+      }
+    ]
+  },
+  "dialogo9": {
+    "paragraph": [
+      "-P: LEVANTEM A ÃO AGORA!",
+      "-Soldado 2: Se não o que?",
+      "--Mata o amigo dele."
+    ],
+    "image": "",
+    "buttons": [
+      {
+        "text": "Continuar"
+      }
+    ]
+  },
+  "dialogo10": {
+    "paragraph": [
+      "<br>*BANG*<br>",
+      "-P: O QUE VOCÊ QUER COMIGO?",
+      "-Soldado 2: Merda, a gente não ia fazer nada, a gente queria conversar contigo!",
+      "--Ele tá mentindo!",
+      "--P: Como sabe?",
+      "--Eu sei que ele queria te matar. Não tem o que conversar com ele, mata ele agora.",
+      "--P: Ok..."
+    ],
+    "image": "",
+    "buttons": [
+      {
+        "text": "Continuar"
+      }
+    ]
+  },
+  "dialogo11": {
+    "paragraph": [
+      "<br>*BANG*<br>",
+      "<br>*Eles saem do beco, olham para a cima e veem um rastro de fumaça vindo da floresta.*<br>",
+      "--É lá que a gente vai."
+    ],
+    "image": "",
+    "buttons": [
+      {
+        "text": "Continuar"
+      }
+    ]
+  },
+  "dialogo12": {
+    "paragraph": [
+      "<br>*BANG BANG BANG BANG*<br>",
+      "--Perfeito, não deu tempo de eles reagirem.",
+      "--P: Isso tá certo?",
+      "--Se eles estivessem no seu lugar eles matariam de uma maneira pior, você foi até piedoso. Você fez o certo."
+    ],
+    "image": "",
+    "buttons": [
+      {
+        "text": "Continuar"
+      }
+    ]
+  },
+  "dialogo13": {
+    "paragraph": [
+      "<br>*Eles saem do beco, olham para a cima e veem um rastro de fumaça vindo da floresta.*<br>",
+      "--É lá que a gente vai."
+    ],
+    "image": "",
+    "buttons": [
+      {
+        "text": "Continuar"
+      }
+    ]
+  },
+  "dialogo14": {
+    "paragraph": [
+      "--Se esperar eles dentro do prédio que eles vão se encontrar vai ter a maior chance de matar os dois.",
+      "--P:É eu ou eles?",
+      "--É eu ou eles!"
+    ],
+    "image": "",
+    "buttons": [
+      {
+        "text": "Continuar"
+      }
+    ]
+  },
+  "dialogo15": {
+    "paragraph": [
+      "<br>*P vai até o prédio, e lá ele espera os dois soldados aparecerem. <br>",
+      "Quando eles começam a entrar...*"
+    ],
+    "image": "",
+    "buttons": [
+      {
+        "text": "Continuar"
+      }
+    ]
+  },
+  "dialogo16": {
+    "paragraph": [
+      "--É o momento, quando achar melhor mata eles.",
+      "-Soldado 1: Conseguiu achar?",
+      "-Soldado 2: Não, ele deve ter sumido depois de matar aquele cara.",
+      "-Soldado 1: Quer ver se acha algum rastro dele pela floresta? Eu vi uma fogueira por lá."
+    ],
+    "image": "",
+    "buttons": [
+      {
+        "text": "Continuar"
+      }
+    ]
+  },
+  "dialogo17": {
+    "paragraph": [
+      "--Acho que eles estão perto o suficiente já, é agora!",
+      "<br>*PING PING PING...Clank*<br>"
+    ],
+    "image": "",
+    "buttons": [
+      {
+        "text": "Continuar"
+      }
+    ]
+  },
+  "dialogo18": {
+    "paragraph": [
+      "--Perfeito.",
+      "--P: E agora?",
+      "--Eles falaram sobre uma fogueira na floresta, vamos pra lá."
+    ],
+    "image": "",
+    "buttons": [
+      {
+        "text": "Continuar"
+      }
+    ]
+  },
+  "dialogo19": {
+    "paragraph": [
+      "<br>*P segue o soldado 1, e depois de um tempo, e então o soldado...*<br>"
+    ],
+    "image": "",
+    "buttons": [
+      {
+        "text": "Continuar"
+      }
+    ]
+  },
+  "dialogo20": {
+    "paragraph": [
+      "--P: Tem um soldado lá pra frente, é impossível ele não ver.",
+      "-Soldado 2: Mais um pra conta.",
+      "--Depois que ele atirar é a hora de agir e descobrir o que é essa contagem.",
+      "<br>*O Soldado mira no outro soldado de longe e dispara, mas antes de conseguir chegar ao rádio...*<br>"
+    ],
+    "image": "",
+    "buttons": [
+      {
+        "text": "Continuar"
+      }
+    ]
+  },
+  "dialogo21": {
+    "paragraph": [
+      "-P: Se tocar nesse rádio sem minha permissão eu te mato.",
+      "-soldado 1: O que você quer?",
+      "-P: Pra que serve a pulseira?",
+      "-Soldado 1: Ela conta a quantidade de pessoas que você já matou. ",
+      "-P: Liga o rádio e fala que não conseguiu me achar, e vai se encontrar com o outro em 20 minutos.",
+      "--Depois que ele falar ele não vai ter mais utilidade.",
+      "--P: O que eu faço?",
+      "--Mata ele."
+    ],
+    "image": "",
+    "buttons": [
+      {
+        "text": "Continuar"
+      }
+    ]
+  },
+  "dialogo22": {
+    "paragraph": [
+      "<br>*O soldado segue a ordem e P o executa o soldado usando a bayonetta em sua arma.*<br>"
+    ],
+    "image": "",
+    "buttons": [
+      {
+        "text": "Continuar"
+      }
+    ]
+  },
+  "dialogo23": {
+    "paragraph": [
+      "<br>*P segue o soldado 2, e depois de um tempo, e então o soldado...*<br>",
+      "--P: Tem um soldado lá pra frente, é impossível ele não ver.",
+      "-Soldado 2: Mais um pra conta.",
+      "--Depois que ele atirar é a hora de agir e descobrir o que é essa contagem.",
+      "<br>*O Soldado mira no outro soldado de longe e dispara, mas antes de conseguir chegar ao rádio...*<br>"
+    ],
+    "image": "",
+    "buttons": [
+      {
+        "text": "Continuar"
+      }
+    ]
+  },
+  "dialogo24": {
+    "paragraph": [
+      "-P: Se tocar nesse rádio sem minha permissão eu te mato.",
+      "-soldado 2: O que você quer?",
+      "-P: Pra que serve a pulseira?",
+      "-Soldado 2: Ela conta a quantidade de pessoas que você já matou. ",
+      "-P: Liga o rádio e fala que não conseguiu me achar, e vai se encontrar com o outro em 20 minutos.",
+      "--Depois que ele falar ele não vai ter mais utilidade.",
+      "--P: O que eu faço?",
+      "--Mata ele.",
+      "<br>*O soldado segue a ordem e P o executa o soldado usando a bayonetta em sua arma.*<br>"
+    ],
+    "image": "",
+    "buttons": [
+      {
+        "text": "Continuar"
+      }
+    ]
+  },
+  "dialogo25": {
+    "paragraph": [
+      "<br>*P Vai até o ponto de encontro dos soldados, e se prepara para matar o último soldado.*<br>",
+      "--Ele não sabe que o amigo dele morreu, não dá muita chance e já executa ele assim que der."
+    ],
+    "image": "",
+    "buttons": [
+      {
+        "text": "Continuar"
+      }
+    ]
+  },
+  "dialogo26": {
+    "paragraph": [
+      "<br>*A porta se abre...*<br>",
+      "--Espera, não atira até tiver um tiro certeiro nele!",
+      "-Soldado: Parece que não tem ninguém aqui e que ele ainda não chegou. Bom, vou sentar e esperar então, ele não deve tá longe.",
+      "--AGORA!"
+    ],
+    "image": "",
+    "buttons": [
+      {
+        "text": "Continuar"
+      }
+    ]
+  },
+  "dialogo27": {
+    "paragraph": [
+      "<br>*BANG BANG...Clank*<br>",
+      "--Vamos sair daqui antes que apareça mais alguém."
+    ],
+    "image": "",
+    "buttons": [
+      {
+        "text": "Continuar"
+      }
+    ]
+  },
+  "dialogo28": {
+    "paragraph": [
+      "<br>*Eles saem do galpão, olham para a cima e veem um rastro de fumaça vindo da floresta.*<br>",
+      "--É lá que a gente vai."
+    ],
+    "image": "",
+    "buttons": [
+      {
+        "text": "Continuar"
+      }
+    ]
+  },
+  "dialogo29": {
+    "paragraph": [
+      "--Espero encontrar poucas pessoas lá, assim vai ser mais fácil de matar",
+      "--P:É bom ter uma arma melhor.",
+      "--Assim vai ser mais fácil de matar."
+    ],
+    "image": "",
+    "buttons": [
+      {
+        "text": "Continuar"
+      }
+    ]
+  },
+  "dialogo30": {
+    "paragraph": [
+      "<br>*P entra na floresta densa e segue seu caminho para onde viu a fogueira, e ao chegar perto da fogueira...*<br>",
+      "--P: É uma criança e uma senhora.",
+      "--Eles também estão armados.",
+      "--P: Mas não parecem soldados.",
+      "--Não importa, se são ou não soldados. Você acha que eles não vão te matar se não dar uma chance?",
+      "--P: Não sei.",
+      "--Eu sei o que é melhor para para nós. Você tem que matar eles."
+    ],
+    "image": "",
+    "buttons": [
+      {
+        "text": "Eles nos matariam?"
+      },
+      {
+        "text": "Eles nos matariam!"
+      }
+    ]
+  },
+  "dialogo31": {
+    "paragraph": [
+      "--P: Eu quero saber se eles nós matariam.",
+      "--Vá em frente, você vai ver que eu estou certo.",
+      "<br>*P se aproxima da senhora e da criança e...*<br>",
+      "-P: Olá...",
+      "-Criança: DROGA ACHARAM A GENTE!"
+    ],
+    "image": "",
+    "buttons": [
+      {
+        "text": "Continuar"
+      }
+    ]
+  },
+  "dialogo32": {
+    "paragraph": [
+      "<br>*A senhora puxa sua arma e...*<br>",
+      "<br>*TRATATATA*<br>"
+    ],
+    "image": "",
+    "buttons": [
+      {
+        "text": "Continuar"
+      }
+    ]
+  },
+  "dialogo33": {
+    "paragraph": [
+      "..."
+    ],
+    "image": "",
+    "buttons": [
+      {
+        "text": "Continuar"
+      }
+    ]
+  },
+  "dialogo34": {
+    "paragraph": [
+      "<br>*P abre os olhos e os dois estão mortos, e a arma na sua mão...*<br>",
+      "--Eu te avisei...",
+      "--P:O que aconteceu?!",
+      "--Eu salvei a gente."
+    ],
+    "image": "",
+    "buttons": [
+      {
+        "text": "Continuar"
+      }
+    ]
+  },
+  "dialogo35": {
+    "paragraph": [
+      "<br>*P escuta carros de longe, e a voz com medo de terem o escutado...*<br>",
+      "--A gente precisa correr daqui! AGORA!"
+    ],
+    "image": "",
+    "buttons": [
+      {
+        "text": "Continuar"
+      }
+    ]
+  },
+  "dialogo36": {
+    "paragraph": [
+      "--Confie em mim, chegamos até aqui vivos por minha causa.",
+      "--P: Acho que você está certo."
+    ],
+    "image": "",
+    "buttons": [
+      {
+        "text": "Continuar"
+      }
+    ]
+  },
+  "dialogo37": {
+    "paragraph": [
+      "<br>*P se aproxima da senhora e da criança e...* <br>",
+      "--P: Será que é realmente certo...?"
+    ],
+    "image": "",
+    "buttons": [
+      {
+        "text": "Continuar"
+      }
+    ]
+  },
+  "dialogo38": {
+    "paragraph": [
+      "<br>*BANG BANG BANG*<br>"
+    ],
+    "image": "",
+    "buttons": [
+      {
+        "text": "Continuar"
+      }
+    ]
+  },
+  "dialogo39": {
+    "paragraph": [
+      "<br>*A criança e a senhora... no chão*<br>"
+    ],
+    "image": "",
+    "buttons": [
+      {
+        "text": "Continuar"
+      }
+    ]
+  },
+  "dialogo40": {
+    "paragraph": [
+      "<br>*P abre os olhos e os dois estão mortos, e a arma na sua mão...*<br>"
+    ],
+    "image": "",
+    "buttons": [
+      {
+        "text": "Continuar"
+      }
+    ]
+  },
+  "dialogo41": {
+    "paragraph": [
+      "--P: O que eu fiz?",
+      "--Você hesitou, mas não tem problema eu salvei a gente."
+    ],
+    "image": "",
+    "buttons": [
+      {
+        "text": "Continuar"
+      }
+    ]
+  },
+  "dialogo42": {
+    "paragraph": [
+      "<br>*P escuta carros de longe, e a voz com medo de terem o escutado...*<br>"
+    ],
+    "image": "",
+    "buttons": [
+      {
+        "text": "Continuar"
+      }
+    ]
+  },
+  "dialogo43": {
+    "paragraph": [
+      "--A gente precisa correr daqui! AGORA!"
+    ],
+    "image": "",
+    "buttons": [
+      {
+        "text": "Continuar"
+      }
+    ]
+  },
+  "dialogo44": {
+    "paragraph": [
+      "--P: O QUE ACONTECEU?",
+      "--Eu matei eles.",
+      "--COMO ASSIM “VOCÊ”? O QUE VOCÊ É?",
+      "--É  difícil de explicar o que eu sou, porque você já sabe.",
+      "--SUA VOZ IDIOTA, COMO EU SEI O QUE VOCÊ É?",
+      "--Você sabe porque você matou todas essas pessoas, mas mesmo fazendo isso tinha uma pulga na orelha."
+    ],
+    "image": "",
+    "buttons": [
+      {
+        "text": "Continuar"
+      }
+    ]
+  },
+  "dialogo45": {
+    "paragraph": [
+      "<br>*P passa por uma poça de água, mas vê algo diferente em seu reflexo.*<br>"
+    ],
+    "image": "",
+    "buttons": [
+      {
+        "text": "Continuar"
+      }
+    ]
+  },
+  "dialogo46": {
+    "paragraph": [
+      "--P: QUE MERDA TÁ ACONTECENDO?",
+      "--Todos que você matou teve um sentido em mata-los, uma parte de você já entendeu isso faz tempo e sabe o porque elas precisavam morrem. Porém outra parte ainda não entendeu nada disso, e a ainda se pergunta o por que."
+    ],
+    "image": "",
+    "buttons": [
+      {
+        "text": "Continuar"
+      }
+    ]
+  },
+  "dialogo47": {
+    "paragraph": [
+      "<br>*P percebe que alguns soldados estão perseguindo ele.*<br>"
+    ],
+    "image": "",
+    "buttons": [
+      {
+        "text": "Continuar"
+      }
+    ]
+  },
+  "dialogo48": {
+    "paragraph": [
+      "--A gente precisa sair daqui!"
+    ],
+    "image": "",
+    "buttons": [
+      {
+        "text": "Ir para a cidade"
+      },
+      {
+        "text": "Fazenda"
+      },
+      {
+        "text": "Ir para o campo"
+      }
+    ]
+  },
+  "dialogo49": {
+    "paragraph": [
+      "<br>*P decide ir em direção a uma cidade...*<br>"
+    ],
+    "image": "",
+    "buttons": [
+      {
+        "text": "Continuar"
+      }
+    ]
+  },
+  "dialogo50": {
+    "paragraph": [
+      "--P: Você tá me dizendo que eu não matei essas pessoas, mas você matou elas?",
+      "--Nós matamos essas pessoas. Eu sou você.",
+      "--P: Não você não é... não pode ser, eu..."
+    ],
+    "image": "",
+    "buttons": [
+      {
+        "text": "Continuar"
+      }
+    ]
+  },
+  "dialogo51": {
+    "paragraph": [
+      "<br>*P chega na cidade, e entra em um prédio, e percebe no espelho do prédio que...*<br>"
+    ],
+    "image": "",
+    "buttons": [
+      {
+        "text": "Continuar"
+      }
+    ]
+  },
+  "dialogo52": {
+    "paragraph": [
+      "<br>*P decide ir em direção a uma fazenda...*<br>"
+    ],
+    "image": "",
+    "buttons": [
+      {
+        "text": "Continuar"
+      }
+    ]
+  },
+  "dialogo53": {
+    "paragraph": [
+      "--P: Você tá me dizendo que eu não matei essas pessoas, mas você matou elas?",
+      "--Nós matamos essas pessoas. Eu sou você.",
+      "--P: Não você não é... não pode ser, eu..."
+    ],
+    "image": "",
+    "buttons": [
+      {
+        "text": "Continuar"
+      }
+    ]
+  },
+  "dialogo54": {
+    "paragraph": [
+      "<br>*P chega na fazenda, e entra em uma casa, e percebe na janela da casa que...*<br>"
+    ],
+    "image": "",
+    "buttons": [
+      {
+        "text": "Continuar"
+      }
+    ]
+  },
+  "dialogo55": {
+    "paragraph": [
+      "<br>*P decide ir em direção a um campo...*<br>"
+    ],
+    "image": "",
+    "buttons": [
+      {
+        "text": "Continuar"
+      }
+    ]
+  },
+  "dialogo56": {
+    "paragraph": [
+      "--P: Você tá me dizendo que eu não matei essas pessoas, mas você matou elas?",
+      "--Nós matamos essas pessoas. Eu sou você.",
+      "--P: Não você não é... não pode ser, eu..."
+    ],
+    "image": "",
+    "buttons": [
+      {
+        "text": "Continuar"
+      }
+    ]
+  },
+  "dialogo57": {
+    "paragraph": [
+      "<br>*P chega no campo, e percebe em uma poça de água que...*<br>"
+    ],
+    "image": "",
+    "buttons": [
+      {
+        "text": "Continuar"
+      }
+    ]
+  },
+  "dialogo575": {
+    "paragraph": [
+      "..."
+    ],
+    "image": "",
+    "buttons": [
+      {
+        "text": "Eu não sou você"
+      },
+      {
+        "text": "Eu sou você"
+      }
+    ]
+  },
+  "dialogo58": {
+    "paragraph": [
+      "--P: Eu não sou você, e não posso ser você, eu não aceito viver assim.",
+      "--Mas voc...",
+      "--P: Cala a boca, você não existe, e eu não posso mais ouvir você."
+    ],
+    "image": "",
+    "buttons": [
+      {
+        "text": "Continuar"
+      }
+    ]
+  },
+  "dialogo59": {
+    "paragraph": [
+      "<br>*P recarrega sua arma.*<br>"
+    ],
+    "image": "",
+    "buttons": [
+      {
+        "text": "Continuar"
+      }
+    ]
+  },
+  "dialogo60": {
+    "paragraph": [
+      "--P: Eu matei todas aquelas pessoas, e nem sei se era realmente necessário... não posso viver assim... eu não consigo viver mais desse jeito. Tenho que pagar pelas coisas que fiz.",
+      "--Existe outra forma.",
+      "--P: Não vou escutar o que você quer falar, e sei o que tenho que fazer..."
+    ],
+    "image": "",
+    "buttons": [
+      {
+        "text": "Continuar"
+      }
+    ]
+  },
+  "dialogo61": {
+    "paragraph": [
+      "--P: Você e eu somos a mesma pessoa, tomando as mesmas ações...",
+      "--Então você aceitou isso.",
+      "--P: Sim, e o que vamos fazer...",
+      "--Sobreviver, eu e você juntos conseguiremos o que nós quisermos."
+    ],
+    "image": "",
+    "buttons": [
+      {
+        "text": "Continuar"
+      }
+    ]
+  },
+  "dialogo62": {
+    "paragraph": [
+      "<br>*P escuta os soldados chegando...*<br>"
+    ],
+    "image": "",
+    "buttons": [
+      {
+        "text": "Continuar"
+      }
+    ]
+  },
+  "dialogo63": {
+    "paragraph": [
+      "--Nós vamos matar todos eles."
+    ],
+    "image": "",
+    "buttons": [
+      {
+        "text": "Continuar"
+      }
+    ]
+  },
+  "dialogo64": {
+    "paragraph": [
+      "<br>*TRATATATATA*<br>"
+    ],
+    "image": "",
+    "buttons": [
+      {
+        "text": "Continuar"
+      }
+    ]
+  },
+  "dialogo65": {
+    "paragraph": [
+      "<br>*BANG*<br>"
+    ],
+    "image": "",
+    "buttons": [
+      {
+        "text": "Continuar"
+      }
+    ]
+  },
+  "dialogo66": {
+    "paragraph": [
+      "..."
+    ],
+    "image": "",
+    "buttons": [
+      {
+        "text": "Continuar"
+      }
+    ]
+  },
+  "dialogo67": {
+    "paragraph": [
+      "<br>*P após entrar em conflito com a sua própria mente, não conseguiu pensar em outro jeito de acabar com isso, e tirou a própria vida...*<br>"
+    ],
+    "image": "",
+    "buttons": [
+      {
+        "text": "Continuar"
+      }
+    ]
+  },
+  "dialogo68": {
+    "paragraph": [
+      "<br>*P matou soldado por soldado, e após aceitar o seu lado assassino ele se tornou uma máquina de matar... assim sendo conhecido na guerra como: <br>",
+      "Dhoug Mhaul.*"
+    ],
+    "image": "",
+    "buttons": [
+      {
+        "text": "Continuar"
+      }
+    ]
+  },
+  "dialogo69": {
+    "paragraph": [
+      "<br>*P abre os olhos, e uma forte luz bate em seu olho, e toda a sua vida é relembrada junto com o que aconteceu “naquele lugar”, P está em um laboratório. P vê uma cadeira de frente a uma tela observando cada um que está  “naquele lugar”, a cadeira se vira e P está de frente com o maníaco sádico que criou tudo isso.*<br>"
+    ],
+    "image": "",
+    "buttons": [
+      {
+        "text": "Continuar"
+      }
+    ]
+  },
+  "dialogo70": {
+    "paragraph": [
+      "Donald Modake : au-au,au-au."
+    ],
+    "image": "",
+    "buttons": [
+      {
+        "text": "Continuar"
+      }
+    ]
+  },
+  "dialogo71": {
+    "image": "",
+    "buttons": [
+      {
+        "text": "Continuar"
+      }
+    ]
+  }
+}

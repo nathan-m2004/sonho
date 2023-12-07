@@ -1,0 +1,778 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>S.O.N.H.O?</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Ubuntu+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+        * {
+            font-family: 'Ubuntu Mono', monospace;
+            font-size: 12pt;
+            padding: 0;
+            margin: 0;
+        }
+
+        *::selection {
+            color: black;
+            background-color: rgb(68, 255, 68);
+        }
+
+        body {
+            background-color: black;
+            color: rgb(68, 255, 68);
+            text-shadow: 0px 0px 7px rgb(68, 255, 68);
+            margin: 0;
+            height: 100%;
+            width: 100%;
+            position: absolute;
+            top: 0;
+            left: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            overflow: hidden;
+        }
+
+        button {
+            font-size: 11pt;
+            padding: 2%;
+            background-color: rgb(17, 17, 17);
+            color: rgb(68, 255, 68);
+            text-shadow: 0px 0px 7px rgb(68, 255, 68);
+            border: 0;
+            cursor: pointer;
+            mix-blend-mode: difference;
+        }
+
+        button:hover {
+            color: rgb(17, 17, 17);
+            background-color: rgb(68, 255, 68);
+            mix-blend-mode: difference;
+        }
+
+        button:active {
+            background-color: rgba(66, 255, 66, 0.219);
+            color: rgb(17, 17, 17);
+        }
+
+        p,
+        h4 {
+            mix-blend-mode: difference;
+            text-align: justify;
+            line-height: 1rem;
+            margin-bottom: 0.3rem;
+        }
+
+        #warning {
+            position: fixed;
+            top: 1rem;
+            left: 50%;
+            color: red;
+            text-shadow: none;
+        }
+
+        #options {
+            position: fixed;
+            bottom: 1rem;
+            right: 1rem;
+            height: 2.3rem;
+            width: 2.3rem;
+            mix-blend-mode: difference;
+        }
+
+        #music {
+            height: 100%;
+            mix-blend-mode: lighten;
+            filter: invert();
+        }
+
+        .dropdown {
+            display: none;
+            position: relative;
+            top: -14.5rem;
+            height: 9rem;
+            left: 0;
+            padding-bottom: 2rem;
+            padding-top: 2rem;
+            z-index: -1;
+        }
+
+        .dropdown:hover .dropdown {
+            display: flex;
+        }
+
+        #options:hover .dropdown {
+            display: flex;
+        }
+
+        #volume {
+            width: 0.5rem;
+            height: 100%;
+            cursor: pointer;
+            appearance: none;
+            outline: none;
+            border: 2px solid rgb(68, 255, 68);
+            background: black;
+            margin: auto;
+        }
+
+        #volume::-moz-range-thumb {
+            width: 1rem;
+            height: 0.5rem;
+            background: rgb(68, 255, 68);
+            cursor: pointer;
+            border: 2px solid black;
+            border-radius: 0;
+        }
+
+        .equipped {
+            background-color: rgb(68, 255, 68) !important;
+            color: black;
+        }
+
+        .bought {
+            background-color: rgb(0, 79, 27);
+            color: black;
+        }
+
+        .upgrades,
+        .weapons {
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            max-width: 30rem;
+            overflow-y: scroll;
+            max-height: 20rem;
+        }
+
+        .menu,
+        .choices,
+        .main,
+        .quest {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            gap: 1rem;
+            width: 75%;
+            padding: 1rem;
+        }
+
+        .buys {
+            display: flex;
+            gap: 1rem;
+            width: 75%;
+            justify-content: center;
+        }
+
+        .container {
+            display: flex;
+            flex-direction: column;
+            gap: 0.5rem;
+            max-width: 35rem;
+            width: 100%;
+        }
+
+        .X {
+            padding-bottom: 0.5rem;
+            position: sticky;
+            top: 0;
+            z-index: 1;
+        }
+
+        .X * {
+            padding: 4%;
+            line-height: 0;
+        }
+
+        .hidden {
+            display: none;
+        }
+
+        .loadScreen {
+            font-size: 14pt;
+            position: absolute;
+            display: flex;
+            z-index: 1;
+            height: 100%;
+            width: 100%;
+            text-align: center;
+            background-color: black;
+        }
+
+        .loadScreen * {
+            margin: auto;
+        }
+
+        main {
+            position: absolute;
+            top: 0;
+            left: 0;
+            z-index: -1;
+        }
+
+        .container canvas {
+            filter: brightness(1.4) drop-shadow(0px 0px 7px #44ff4452);
+        }
+
+        canvas {
+            filter: drop-shadow(0px 0px 7px #44ff4452);
+        }
+
+        #placeholder {
+            display: none;
+        }
+
+        .halftone {
+            background: none;
+            position: relative;
+            filter: contrast(25000%);
+            overflow: hidden;
+            transform: translateZ(0);
+            /* force a HW accelerated layer */
+            mix-blend-mode: lighten;
+            opacity: 0.8;
+            user-select: none;
+        }
+
+        .halftone>* {
+            width: 100%;
+            filter: brightness(0.5) blur(4px);
+            animation: 10s animation-filter infinite alternate;
+        }
+
+        .halftone::after {
+            content: '';
+            position: absolute;
+            top: -100%;
+            left: -100%;
+            right: -100%;
+            bottom: -100%;
+            background-blend-mode: multiply;
+            background:
+                radial-gradient(4px 4px, #38ff00, white),
+                radial-gradient(4px 4px, #40f, white),
+                radial-gradient(4px 4px, #bf0, white);
+            background-size: 3px 3px;
+            background-position: 0 -3px, -2px 0, 2px 0;
+            mix-blend-mode: screen;
+            pointer-events: none;
+            transform: rotate(11.25deg);
+            transition: 1s ease-in-out transform;
+            z-index: 1;
+            animation: 10s animation-overlay infinite alternate;
+        }
+
+        @keyframes animation-overlay {
+            0% {
+                transform: rotate(-10deg) scale(2);
+            }
+
+            100% {
+                transform: rotate(10deg);
+            }
+        }
+
+        @keyframes animation-filter {
+            0% {
+                filter: brightness(0.5) blur(6px);
+            }
+
+            100% {
+                filter: brightness(0.5) blur(2px);
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.7.0/p5.min.js"
+        integrity="sha512-bcfltY+lNLlNxz38yBBm/HLaUB1gTV6I0e+fahbF9pS6roIdzUytozWdnFV8ZnM6cSAG5EbmO0ag0a/fLZSG4Q=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script>
+        var choices
+        var quests
+        var upgrades
+        var weapons
+
+        function fetchData() {
+            fetch('./data.json')
+                .then((response) => {
+                    return response.json()
+                })
+                .then((data) => {
+                    choices = data.choices
+                    quests = data.quests
+                    upgrades = data.upgrades
+                    weapons = data.weapons
+                })
+                .catch((error) => {
+                    console.log(error)
+                })
+        }
+    </script>
+
+    <script>
+        var mX = (mouseX / (width / buffer2d.width))
+        var mY = (mouseY / (height / buffer2d.height))
+        var pmX = (mouseX / (width / buffer2d.width))
+        var pmY = (mouseY / (height / buffer2d.height))
+        var mXrandom = random(mX - 5, mX + 5)
+        var mYrandom = random(mY - 5, mY + 5)
+        var endingCanvasDraw
+        var ending
+
+        //var selectedModel
+
+        function setup() {
+            createCanvas(window.innerWidth, window.innerHeight);
+            noSmooth()
+
+            buffer3d = createGraphics((400 * (window.innerWidth / window.innerHeight)), 400, WEBGL)
+            buffer3d.noSmooth()
+            buffer3d.camera(-750, 0, 0)
+            buffer3d.perspective(undefined, undefined, 10, 1000)
+
+            buffer2d = createGraphics((400 * (window.innerWidth / window.innerHeight)), 400)
+            buffer2d.noSmooth()
+        }
+
+        function preload() {
+            weapons.borchardt.modelsrc = loadModel('models/borchardt.obj', true)
+            weapons.m1garand.modelsrc = loadModel('models/m1garand.obj', true)
+            weapons.mp40.modelsrc = loadModel('models/mp40.obj', true)
+            weapons.m1911.modelsrc = loadModel('models/1911.obj', true)
+            weapons.ppsh41.modelsrc = loadModel('models/ppsh41.obj', true)
+            weapons.ak74au.modelsrc = loadModel('models/ak74au.obj', true)
+            selectedModel = 'undefined'
+        }
+
+        function draw() {
+            buffer3d.clear()
+            buffer2d.clear()
+            clear()
+
+            buffer3d.noFill()
+            buffer3d.strokeWeight(1.5)
+            buffer3d.stroke(66, 255, 66, 70);
+
+            if (ending == true) {
+                endingCanvasDraw()
+            }
+
+            buffer3d.push()
+            buffer3d.translate(0, -50, 0)
+            buffer3d.rotateX(millis() * 0.001);
+            buffer3d.rotateY(millis() * 0.001);
+            buffer3d.box(Math.min((window.innerWidth / 6), 150), Math.min((window.innerWidth / 6), 150))
+            buffer3d.pop()
+
+            if (selectedModel != 'undefined') { //dunno why undefined doesnt work
+                buffer3d.push()
+                buffer3d.stroke(66, 255, 66, 35);
+                buffer3d.strokeWeight(0.7)
+                buffer3d.translate(0, 275, 0)
+                buffer3d.rotateY(90 + millis() * 0.001)
+                buffer3d.rotateX(-90)
+                buffer3d.scale(Math.min(0.002 * window.innerWidth, 2))
+                buffer3d.model(selectedModel)
+                buffer3d.pop()
+            }
+
+            buffer2d.push()
+            mX = (mouseX / (width / buffer2d.width))
+            mY = (mouseY / (height / buffer2d.height))
+
+            buffer2d.noFill()
+            buffer2d.strokeWeight(2)
+            buffer2d.stroke(68, 255, 68);
+
+            buffer2d.line(mX, mY, mXrandom, mYrandom);
+            buffer2d.line(mX, mY, pmX, pmY);
+            if (mouseIsPressed === true) {
+                const randomX = random(mXrandom - 5, mXrandom + 5)
+                const randomY = random(mYrandom - 5, mYrandom + 5)
+                buffer2d.line(mXrandom, mYrandom, randomX, randomY)
+                buffer2d.push()
+                buffer2d.strokeWeight(1)
+                buffer2d.line(randomX, randomY, random(randomX - 5, randomX + 5), random(randomY - 5, randomY + 5))
+                buffer2d.pop()
+            }
+            if (frameCount % 2 == 0) {
+                mXrandom = random(mX - 1, mX + 1)
+                mYrandom = random(mY - 1, mY + 1)
+                pmX = (mouseX / (width / buffer2d.width))
+                pmY = (mouseY / (height / buffer2d.height))
+            }
+            buffer2d.pop()
+
+            image(buffer3d, 0, 0, window.innerWidth, window.innerHeight)
+            image(buffer2d, 0, 0, window.innerWidth, window.innerHeight)
+        }
+
+
+    </script>
+
+    <script>
+        var resolvePromise
+        var rejectPromise
+
+        var points = 5
+        var totaldamage
+        var showbuy
+
+        var trigger
+
+        const clickAudio = new Audio('sounds/click.mp3')
+        const mainTheme = new Audio('sounds/ambient.mp3')
+        const endTheme = new Audio('sounds/hill.mp3')
+
+        mainTheme.loop = true
+
+        const clickSound = () => {
+            clickAudio.load()
+            const randomPlayrate = (Math.random() * (0.9 - 1.2) + 1.2)
+            clickAudio.playbackRate = randomPlayrate
+            clickAudio.play()
+        }
+
+        function checkTrigger() {
+            trigger()
+        }
+
+        function changeVolume() {
+            const volume = (document.querySelector("#volume").value / 100)
+            const input = document.querySelector("#music")
+            clickAudio.volume = volume
+            mainTheme.volume = volume
+            endTheme.volume = volume
+            if (volume == 0) {
+                input.setAttribute('src', 'images/speakerOff.png')
+            } else { input.setAttribute('src', 'images/speakerOn.png') }
+        }
+
+        function toggleVolume() {
+            if (clickAudio.volume == 0) {
+                document.querySelector("#volume").value = 50
+            } else {
+                document.querySelector("#volume").value = 0
+            }
+            changeVolume()
+        }
+
+        function choicePrompt(object) {
+            const main = document.querySelector(".choices")
+            document.querySelector(".choices").insertAdjacentHTML("afterbegin", "<div class='container'></div>")
+            const container = document.querySelector(".choices .container")
+            main.classList.remove('hidden')
+            hideMenu()
+
+            if (Object.values(choices[object].image) != '') {
+                container.insertAdjacentHTML("beforeend", `<div class='halftone'></div>`)
+                document.querySelector(".choices .container .halftone").insertAdjacentHTML("beforeend", `<img id='${object}' src='${choices[object].image}'>`)
+                const image = document.querySelector(`#${object}`)
+                /*pict2pix.animate({
+                    image: image,
+                    particleType: 'halftone',
+                    dotSize: 4,
+                    transitionTime: 50,
+                    idleTime: 5000,
+                    color: "green",
+                    separation: 6
+                });*/
+            }
+            for (var i = 0; i < choices[object].paragraph.length; i++) {
+                container.insertAdjacentHTML("beforeend", `<p id='paragraph'>${choices[object].paragraph[i]}`)
+            }
+            for (var i = 0; i < choices[object].buttons.length; i++) {
+                container.insertAdjacentHTML("beforeend", `<button onclick="resolvePromise('${choices[object].buttons[i].text}', ${i})">${choices[object].buttons[i].text}`)
+                document.querySelector("button").addEventListener('click', clickSound)
+            }
+            return new Promise((resolve, reject) => {
+                resolvePromise = (f, i) => {
+                    const button = choices[object].buttons[i]
+                    var ezfix = 0
+                    function fucked() {
+                        resolve(f);
+                        showMenu()
+                        main.classList.add("hidden");
+                        for (var y = 0; y < document.querySelectorAll(".choices *").length; y) {
+                            document.querySelectorAll(".choices *")[y].remove()
+                        };
+                    }
+
+                    // skufed system to check if player has weapon/upgrade
+
+                    if (Object.keys(button).length == 1) { return fucked() }
+                    for (var hatred = 0; hatred < Object.keys(button.upgrades).length; hatred++) {
+                        if (upgrades[Object.keys(button.upgrades)[hatred]].value >= Object.values(button.upgrades)[hatred]) { ezfix++ }
+                    }
+                    for (var die = 0; die < Object.keys(button.weapons).length; die++) {
+                        for (var kill = 0; kill < Object.keys(button.weapons[Object.keys(button.weapons)]).length; kill++) {
+                            const index = Object.keys(weapons[Object.keys(button.weapons)[0]]).indexOf(Object.keys(button.weapons[Object.keys(button.weapons)])[kill])
+                            if (Object.values(weapons[Object.keys(button.weapons)[die]])[index] <= Object.values(button.weapons[Object.keys(button.weapons)[die]])[kill]) { ezfix++ }
+                        }
+                    }
+                    if (ezfix == (Object.entries(button.weapons[Object.keys(button.weapons)]).length + Object.keys(button.upgrades).length)) { fucked() }
+                }
+                rejectPromise = reject
+            })
+        }
+
+        function questText(index) {
+            const quest = document.querySelector(".quest")
+            const clear = document.querySelectorAll(".quest *")
+            if (document.querySelector(".quest .container") != null) {
+                document.querySelector(".quest .container").remove();
+            }
+            quest.insertAdjacentHTML("afterbegin", `<div class='container'></div>`)
+            if (Object.values(quests[index].image) != '') {
+                document.querySelector(".quest .container").insertAdjacentHTML("afterbegin", `<div class='halftone'></div>`)
+                document.querySelector(".quest .container .halftone").insertAdjacentHTML("beforeend", `<img id='quest${index}' src='${quests[index].image}'>`)
+                const image = document.querySelector(`#quest${index}`)
+                /*pict2pix.animate({
+                    image: image,
+                    particleType: 'halftone',
+                    dotSize: 4,
+                    transitionTime: 50,
+                    idleTime: 5000,
+                    color: "green",
+                    separation: 6
+                });*/
+            }
+            for (var i = 0; i < Object.values(quests[index])[0].length; i++) {
+                document.querySelector(".quest .container").insertAdjacentHTML("afterbegin", `<p>${Object.values(quests[index])[0][i]}</p>`)
+            }
+        }
+
+        function addPoints(value) {
+            let activeweapon = Object.values(weapons).findIndex(({ active }) => active === true)
+            if (activeweapon != -1) {
+                points += upgrades.damage.value * Object.values(weapons)[activeweapon].damagemultiplier * value
+                totaldamage = upgrades.damage.value * Object.values(weapons)[activeweapon].damagemultiplier
+            } else { points += upgrades.damage.value * value; totaldamage = upgrades.damage.value }
+            screenUpdate()
+        }
+
+        function screenUpdate() {
+            document.querySelector("#display").innerHTML = `Experiência: ${points} -- Dano: ${totaldamage}`
+            checkTrigger()
+        }
+
+        function buyUpgrade(upgrade) {
+            const selected = upgrades[upgrade]
+            if (points >= selected.cost) {
+                selected.value += (1 * selected.valuemultiplier)
+                points -= selected.cost
+                selected.cost *= selected.costmultiplier
+                addPoints(0)
+                screenUpdate()
+            }
+            document.querySelector(`#${upgrade}`).innerHTML = `${upgrades[upgrade].text} custo: ${upgrades[upgrade].cost}`
+        }
+
+        function showUpgrades() {
+            if (showbuy == true) { closeUpgrades(); closeWeapons() }
+            showbuy = true
+            screenUpdate()
+            document.querySelector(".upgrades").classList.remove("hidden")
+            document.querySelector(".upgrades").insertAdjacentHTML("afterbegin", `<div class='container'></div>`)
+            document.querySelector(".upgrades .container").insertAdjacentHTML("afterbegin", `<div class='X'></div>`)
+            document.querySelector(".upgrades .container .X").insertAdjacentHTML("afterbegin", `<button onclick="closeUpgrades()">X</button>`)
+            document.querySelector(`.X button`).addEventListener('click', clickSound)
+            for (var i = 0; i < Object.keys(upgrades).length; i++) {
+                document.querySelector(".upgrades .container").insertAdjacentHTML("beforeend", `<button id="${Object.keys(upgrades)[i]}" onclick="buyUpgrade('${Object.keys(upgrades)[i]}')">${Object.values(upgrades)[i].text} custo: ${Object.values(upgrades)[i].cost}</button>`)
+                document.querySelector(`#${Object.keys(upgrades)[i]}`).addEventListener('click', clickSound)
+            }
+        }
+        function closeUpgrades() {
+            showbuy = false
+            document.querySelector(".upgrades").classList.add("hidden")
+            for (var i = 0; i < document.querySelectorAll(".upgrades *").length; i) {
+                document.querySelectorAll(".upgrades *")[i].remove()
+            }
+        }
+
+        function buyWeapon(weapon) {
+            const selected = weapons[weapon]
+            if (points >= selected.cost && selected.bought == false) {
+                points -= selected.cost
+                selected.bought = true
+                document.querySelector(`#${weapon}`).innerHTML = `${weapons[weapon].text} comprada`
+                document.querySelector(`#${weapon}`).classList.add("bought")
+            }
+            if (selected.bought == true) {
+                let previous = Object.values(weapons).findIndex(({ active }) => active === true)
+                if (previous != -1) {
+                    Object.values(weapons)[previous].active = false;
+                    document.querySelector(`#${Object.keys(weapons)[previous]}`).innerHTML = `${Object.values(weapons)[previous].text} comprada`
+                    document.querySelector(`#${Object.keys(weapons)[previous]}`).classList.remove("equipped")
+                }
+                selected.active = true
+                selectedModel = weapons[weapon].modelsrc
+                addPoints(0)
+                document.querySelector(`#${weapon}`).innerHTML = `${weapons[weapon].text} equipada`
+                document.querySelector(`#${weapon}`).classList.add("equipped")
+                screenUpdate()
+            }
+        }
+
+        function showWeapons() {
+            if (showbuy == true) { closeUpgrades(); closeWeapons() }
+            showbuy = true
+            screenUpdate()
+            document.querySelector(".weapons").classList.remove("hidden")
+            document.querySelector(".weapons").insertAdjacentHTML("afterbegin", `<div class='container'></div>`)
+            document.querySelector(".weapons .container").insertAdjacentHTML("afterbegin", `<div class='X'></div>`)
+            document.querySelector(".weapons .container .X").insertAdjacentHTML("afterbegin", `<button onclick="closeWeapons()">X</button>`)
+            document.querySelector(`.X button`).addEventListener('click', clickSound)
+            for (var i = 0; i < Object.keys(weapons).length; i++) {
+                let classes = ''
+                let string = ''
+                if (Object.values(weapons)[i].bought == false) {
+                    string += ` custo: ${Object.values(weapons)[i].cost}</button>`
+                } else if (Object.values(weapons)[i].active == true) { string += ` equipada</button>`; classes = "bought equipped"; } else { string += ` comprada</button>`; classes = "bought" }
+                string = `<button id="${Object.keys(weapons)[i]}" class='${classes}' onclick="buyWeapon('${Object.keys(weapons)[i]}')">${Object.values(weapons)[i].text}` + string
+                document.querySelector(".weapons .container").insertAdjacentHTML("beforeend", string)
+                document.querySelector(`#${Object.keys(weapons)[i]}`).addEventListener('click', clickSound)
+            }
+        }
+        function closeWeapons() {
+            showbuy = false
+            document.querySelector(".weapons").classList.add("hidden")
+            for (var i = 0; i < document.querySelectorAll(".weapons *").length; i) {
+                document.querySelectorAll(".weapons *")[i].remove()
+            }
+        }
+
+        function showMenu() {
+            document.querySelector(".menu").classList.remove('hidden')
+            document.querySelector(".quest").classList.remove('hidden')
+        }
+        function hideMenu() {
+            document.querySelector(".menu").classList.add('hidden')
+            document.querySelector(".quest").classList.add('hidden')
+        }
+        function closeBuys() {
+            const wBuy = document.querySelector(".weapons")
+            const uBuy = document.querySelector(".upgrades")
+            if (wBuy.classList.contains(".hidden") == false) {
+                closeWeapons()
+            }
+            if (uBuy.classList.contains(".hidden") == false) {
+                closeUpgrades()
+            }
+        }
+
+        function loadScreen() {
+            document.body.insertAdjacentHTML("afterbegin", `<div class="loadScreen"><h3>[--------------------]</h3></div>`)
+            const loadDiv = [...document.querySelector(".loadScreen h3").innerHTML]
+            for (var i = 0; i < (loadDiv.length - 2); i++) {
+                const count = i
+                setTimeout(() => {
+                    loadDiv[count + 1] = "&#9618"
+                    document.querySelector(".loadScreen h3").innerHTML = loadDiv.join('')
+                }, i * 50)
+            }
+            return new Promise((resolve) => {
+                setTimeout(() => {
+                    document.querySelector(".loadScreen").remove()
+                    resolve();
+                }, 1800)
+            })
+        }
+
+        var dumbItems = [
+            "Martelo de demolição",
+            "Pé de cabra",
+            "Machado de incêndio",
+            "Macaco hidráulico",
+            "Picareta",
+            "Martelo e pregos",
+            "Pedra",
+            "Tubo de metal",
+            "Taco de beisebol",
+        ]
+    </script>
+
+    <script src="sequence.js"></script>
+
+    <script>
+
+        window.onload = async () => {
+            fetchData()
+            await loadScreen()
+            setup()
+            preload()
+            draw()
+            sequenceStart()
+
+        }
+
+        window.onclick = () => {
+            mainTheme.play()
+            window.onclick = undefined
+        }
+
+        window.addEventListener("resize", (event) => {
+            resizeCanvas(window.innerWidth, window.innerHeight)
+            buffer2d.resizeCanvas((400 * (window.innerWidth / window.innerHeight)), 400)
+            buffer3d.resizeCanvas((400 * (window.innerWidth / window.innerHeight)), 400)
+        })
+
+
+    </script>
+
+    <div class="choices hidden">
+    </div>
+
+    <div class="main hidden">
+    </div>
+
+    <div class="quest hidden">
+
+    </div>
+
+    <div class="buys">
+        <div class="upgrades hidden">
+        </div>
+
+        <div class="weapons hidden">
+        </div>
+    </div>
+
+    <div class="menu">
+        <!--<div class="halftone">
+            <img src="images/warimage01.webp">
+        </div>-->
+        <img src="images/warimage01.webp" id="placeholder">
+        <div class="container">
+            <h4 id="display">Experiência: 5 -- Dano: 1</h4>
+            <button onclick="addPoints(1); clickSound()">
+                Treine
+            </button>
+            <button onclick="showUpgrades(); clickSound()">
+                Estude
+            </button>
+            <button onclick="showWeapons(); clickSound()">
+                Armas
+            </button>
+            <!--<button onclick="m1 = true">M1 Garand</button>
+            <button onclick="m1 = false">Borchardt</button>-->
+        </div>
+
+    </div>
+    <div id="options">
+        <input id="music" type="image" src="images/speakerOn.png" onclick="toggleVolume()">
+        <div class="dropdown">
+            <input type="range" min="0" max="100" value="50" class="slider" id="volume" orient='vertical'
+                oninput="changeVolume()">
+        </div>
+    </div>
+</body>
+
+</html>

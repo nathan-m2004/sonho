@@ -1,0 +1,136 @@
+{
+    "choices": {
+        "dialogo1": {
+            "image": "",
+            "paragraph": [
+                "*Você abre os olhos e está em um prédio com uma arma na mão, parece que está é a sua única memória de toda a sua vida. Você está apontando-a arma para um garoto, ele também está armado. Que caminho você pretende seguir?*",
+                "-ATIRA LOGO!"
+            ],
+            "buttons": [
+                {
+                    "text": "Não matar"
+                },
+                {
+                    "text": "Matar!"
+                }
+            ]
+        },
+        "dialogo2": {
+            "image": "",
+            "paragraph": [
+                "Você quer mesmo fazer isso?"
+            ],
+            "buttons": [
+                {
+                    "text": "Sim"
+                }
+            ]
+        }
+    },
+
+
+    "quests": [
+        {
+            "text": [
+                "Você ganhou uma Borchardt C-93",
+                "Equipe ela e tente encontrar uma arma melhor"
+            ],
+            "image": "images/warimage01.webp"
+        },
+        {
+            "text": [
+                "Você entrou na floresta",
+                "Ganhe experiência para prosseguir"
+            ],
+            "image": "images/warimage01.webp"
+        },
+        {
+            "text": [
+                "Vocês estão indo para a caverna",
+                "A viajem é longa"
+            ],
+            "image": "images/warimage01.webp"
+        }
+    ],
+    "upgrades": {
+        "damage": {
+            "text": "Força",
+            "value": 1,
+            "cost": 1,
+            "valuemultiplier": 1,
+            "costmultiplier": 15
+        },
+        "agilidade": {
+            "text": "Agilidade",
+            "value": 1,
+            "cost": 1,
+            "valuemultiplier": 1,
+            "costmultiplier": 15
+        },
+        "intelecto": {
+            "text": "Inteligência",
+            "value": 1,
+            "cost": 1,
+            "valuemultiplier": 1,
+            "costmultiplier": 15
+        }
+    },
+
+
+    "weapons": {
+        "borchardt": {
+            "text": "Borchardt C-93 (Muito Usada)",
+            "value": 1,
+            "cost": 1,
+            "damagemultiplier": 2,
+            "bought": true,
+            "active": false,
+            "modelsrc": "undefined"
+        },
+        "m1garand": {
+            "text": "M1 Garand (Usada)",
+            "value": 5,
+            "cost": 100,
+            "damagemultiplier": 3,
+            "bought": false,
+            "active": false,
+            "modelsrc": "undefined"
+        },
+        "mp40": {
+            "text": "MP 40 (usada)",
+            "value": 10,
+            "cost": 150,
+            "damagemultiplier": 5,
+            "bought": false,
+            "active": false,
+            "modelsrc": "undefined"
+        },
+        "m1911": {
+            "text": "m1911 (descente)",
+            "value": 15,
+            "cost": 450,
+            "damagemultiplier": 10,
+            "bought": false,
+            "active": false,
+            "modelsrc": "undefined"
+        },
+        "ppsh41": {
+            "text": "PPSH41",
+            "value": 50,
+            "cost": 5000,
+            "damagemultiplier": 15,
+            "bought": false,
+            "active": false,
+            "modelsrc": "undefined"
+        },
+        "ak74au": {
+            "text": "AK74AU",
+            "value": 100,
+            "cost": 50000,
+            "damagemultiplier": 50,
+            "bought": false,
+            "active": false,
+            "modelsrc": "undefined"
+        }
+    }
+}

@@ -1,0 +1,657 @@
+{
+  "dialogo1": {
+    "paragraph": [
+      "-P: Eu não consigo!",
+      "<br>*P abaixa a pistola e sai correndo do prédio, e se esconde em um beco*<br>"
+    ],
+    "image": "",
+    "buttons": {
+      "text": "Continuar"
+    }
+  },
+  "dialogo2": {
+    "paragraph": [
+      "--Se esconde porra, tu não matou o moleque, mas ele ainda pode te matar.",
+      "--P: Até pode, mas eu não consigo, não parecia certo.",
+      "--Claro que tu conseguiria, era só puxar a droga do gatilho.",
+      "--P: Mas eu decidi que não iria atirar , agora eu tenho que sair vivo dessa situação.",
+      "--Tu precisa dar um jeito de meter o pé sem mais ninguém perceber, não se sabe se ele estava sozinho.",
+      "--P: Droga, não pensei nisso. E se ele estiver com mais alguém?!",
+      "--É mais simples do que tu imagina, pega uma arma melhor antes que você descubra!"
+    ],
+    "image": "",
+    "buttons": {
+      "text": "Continuar"
+    }
+  },
+  "dialogo3": {
+    "paragraph": [
+      "<br>*Dois soldados param na frente do beco*<br>",
+      "-Soldado 1: Será que ele foi longe?",
+      "-Soldado 2: Não deve ter conseguido com tão pouco tempo.",
+      "-Soldado 1: E se a gente achar ele?",
+      "-Soldado 2:...",
+      "--É melhor não descobrir o que eles querem fazer, é a hora de fazer alguma coisa!"
+    ],
+    "image": "",
+    "buttons": {
+      "text": "Continuar"
+    }
+  },
+  "dialogo4": {
+    "paragraph": [
+      "-Soldado 2:...Ele deixou aquele garoto que a gente matou viver, e o garoto acabou falando dele antes da gente matar ele, o destino iria ser o mesmo.",
+      "-Soldado 1:Quer continuar procurando ele pro outro lado? A essa altura ele deve tá no meio da floresta.",
+      "-Soldado 2: Vai pra um lado que eu vou pro outro, vamos se encontra no prédio principal daqui a um tempinho procurando.",
+      "<br>*Os soldados se separam e vão pra lados diferentes. O soldado 1 vai para a esquerda e o soldado 2 para a direita*<br>",
+      "--P: eu tenho a chance de chegar em algum deles e tentar tirar alguma informação."
+    ],
+    "image": "",
+    "buttons": {
+      "text": "Continuar"
+    }
+  },
+  "dialogo5": {
+    "paragraph": [
+      "<br>*P segue o soldado 2, e depois de um tempo o soldado se comunica em um rádio*<br>",
+      "-Soldado 1: Acho alguma coisa por ai?",
+      "-Soldado 2: Nada que a gente procurava.",
+      "-Soldado 1: Consegui adicionar mais um pra contagem!",
+      "-Soldado 2: Era quem a gente estava procurando ou alguém perdido?",
+      "-Soldado 1: Um perdido.",
+      "-Soldado 2: Depois me conta, estou indo pro prédio."
+    ],
+    "image": "",
+    "buttons": {
+      "text": "Continuar"
+    }
+  },
+  "dialogo6": {
+    "paragraph": [
+      "-P: Que contagem?",
+      "<br>*P percebe uma semelhança entre ele e o soldado, ambos estão com uma pulseira na mão dominante com um número*<br>",
+      "-P: Preciso saber mais sobre isso.",
+      "<br>*P decide sair da cidade, e saindo de lá... * <br>"
+    ],
+    "image": "",
+    "buttons": {
+      "text": "Continuar"
+    }
+  },
+  "dialogo7": {
+    "paragraph": [
+      "<br>*P segue o soldado 1, e depois de um tempo, e então o soldado...*<br>",
+      "-P: Tem um soldado lá pra frente, é impossível ele não ver.",
+      "-S1: Mais um pra conta.",
+      "<br>*O Soldado mira no soldado de longe e dispara, logo depois se comunica em um rádio*<br>"
+    ],
+    "image": "",
+    "buttons": {
+      "text": "Continuar"
+    }
+  },
+  "dialogo8": {
+    "paragraph": [
+      "-Soldado 1: Acho alguma coisa por ai?",
+      "-Soldado 2: Nada que a gente procurava.",
+      "-Soldado1: Consegui adicionar mais um pra contagem!",
+      "-Soldado 2: Era quem a gente estava procurando ou alguém perdido?",
+      "-S1: Um perdido.",
+      "-Soldado 2: Depois me conta, estou indo pro prédio."
+    ],
+    "image": "",
+    "buttons": {
+      "text": "Continuar"
+    }
+  },
+  "dialogo9": {
+    "paragraph": [
+      "-P: Que contagem?",
+      "<br>*P percebe uma semelhança entre ele e o soldado, ambos estão com uma pulseira na mão dominante com um número*<br>",
+      "-P: Preciso saber mais sobre isso.",
+      "<br>*P decide sair da cidade, e saindo de lá... * <br>"
+    ],
+    "image": "",
+    "buttons": {
+      "text": "Continuar"
+    }
+  },
+  "dialogo10": {
+    "paragraph": [
+      "--P: O beco tem uma porta que dá pra dentro de um prédio, a porta já está meio aberta, se eu sair enquanto eles não estão olhando, o prédio deve ter uma saída alternativa no primeiro andar.",
+      "--Uma janela tu quer dizer né?",
+      "--P:É.",
+      "<br>*P se afasta furtivamente dos soldados , chega na porta, a abre  e vê que a cozinha tem uma janela já aberta. P passa por está porta e segue em direção para fora da cidade. Saindo da cidade...*<br>"
+    ],
+    "image": "",
+    "buttons": {
+      "text": "Continuar"
+    }
+  },
+  "dialogo11": {
+    "paragraph": [
+      "<br>*P sai do beco e aponta a arma para os dois soldados*<br>",
+      "-P: Soltem as armas, e levantem as mãos.",
+      "-Soldado2: Se não o que?",
+      "-P: Se não eu atiro.",
+      "--Deveria atirar agora, eles não parecem tão amistosos igual o soldado de antes.",
+      "--P: Para de falar e me deixa pensar."
+    ],
+    "image": "",
+    "buttons": {
+      "text": "Continuar"
+    }
+  },
+  "dialogo12": {
+    "paragraph": [
+      "-P:O que vocês querem?",
+      "-Soldado1: A reposta pode não ser agradável.",
+      "-P: Responde!",
+      "-Soldado 2: Estamos tentando sobreviver, assim como você. ",
+      "-P: São só vocês dois?",
+      "-Soldado1: Sim."
+    ],
+    "image": "",
+    "buttons": {
+      "text": "Continuar"
+    }
+  },
+  "dialogo13": {
+    "paragraph": [
+      "-P: Deixem a arma de vocês aí, e corram.",
+      "Soldado2: Vai matar a gente?",
+      "--Não seria uma má ideia.",
+      "-P: Se eu não precisar é melhor pra todos nós.",
+      "<br>*Os soldados correm ambos para uma direção, e P segue o caminho para fora da cidade. E...<br>"
+    ],
+    "image": "",
+    "buttons": {
+      "text": "Continuar"
+    }
+  },
+  "dialogo14": {
+    "paragraph": [
+      "<br>*P pega o (item) e usa ele para abrir a porta, após um pequeno estalo a porta está aberta,  ele entra e encontra a cozinha do prédio com uma janela aberta. P passa por está porta e segue em direção para fora da cidade. Saindo da cidade...*<br>"
+    ],
+    "image": "",
+    "buttons": {
+      "text": "Continuar"
+    }
+  },
+  "dialogo15": {
+    "paragraph": [
+      "<br>*P olha para cima, e vê uma fumaça vindo da floresta*<br>",
+      "--P: Espero encontrar respostas lá.",
+      "--Não vai despreparado, pode ter alguém pronto pra te matar lá."
+    ],
+    "image": "",
+    "buttons": {
+      "text": "Continuar"
+    }
+  },
+  "dialogo16": {
+    "paragraph": [
+      "--P:É bom ter uma arma melhor, apesar de não pretender usar.",
+      "--Vai tá usando ela errado.",
+      "<br>*P entra na floresta densa e segue seu caminho para onde viu a fogueira, e ao chegar perto da fogueira...*<br>"
+    ],
+    "image": "",
+    "buttons": {
+      "text": "Continuar"
+    }
+  },
+  "dialogo17": {
+    "paragraph": [
+      "--P: É uma criança e uma senhora.",
+      "--Eles também estão armados.",
+      "--P: Mas não parecem soldados.",
+      "--Não importa, se são ou não soldados. Se eles não forem tão certinhos igual você, no segundo que você aparecer algum dos dois vai te matar.",
+      "--P: Não é isso que eu acredito, e por algum motivo não parece que isso é um pensamento meu.",
+      "--Eu estou tentando te salvar!",
+      "--P: Depois eu penso nisso. Por agora eu tenho que pensar se eu vou..."
+    ],
+    "image": "",
+    "buttons": {
+      "text": "Continuar"
+    }
+  },
+  "dialogo18": {
+    "paragraph": [
+      "<br>*P sai do meio das moitas com as mãos pra cima, a criança e a senhora se assustam*<br>",
+      "-P: Fiquem calmos, eu não quero machucar vocês e espero que vocês também não queiram me machucar! "
+    ],
+    "image": "",
+    "buttons": {
+      "text": "Continuar"
+    }
+  },
+  "dialogo19": {
+    "paragraph": [
+      "-Senhora: Tem mais alguém com você?",
+      "-P: Eu na verdade, não conheço ninguém, literalmente.",
+      "-Criança: Como podemos confiar em você?",
+      "-P: Da mesma forma que vou confiar que vocês também não vão me matar."
+    ],
+    "image": "",
+    "buttons": {
+      "text": "Continuar"
+    }
+  },
+  "dialogo20": {
+    "paragraph": [
+      "-Senhora: O que você quer?",
+      "-P: Entender o que está acontecendo.",
+      "-Senhora: Meu filho, eu também não sei, sai de uma cidade onde estava acontecendo um tiroteio e tentei fugir, procurando onde me esconder achei este garoto, eu e ele nós juntamos e estamos a alguns dias fugindo de problemas.",
+      "-P: Acho que acender uma fogueira não foi a melhor ideia, pelo menos não foi alguém tão ruim que veio atrás. Acredito que seja melhor nós afastarmos, tinha alguns soldados na cidade e eles podem vir atrás.",
+      "-Criança: A gente achou uma caverna não tão longe daqui, talvez seja melhor ir pra lá."
+    ],
+    "image": "",
+    "buttons": {
+      "text": "Continuar"
+    }
+  },
+  "dialogo21": {
+    "paragraph": [
+      "<br>*P Sai da moita apontando a arma para a senhora e a criança, eles se assustam e levantam as mãos*<br>",
+      "-P: Eu não quero machucar vocês, eu quero conversar se vocês também estiverem dispostos a isso. Se eu quisesse matar vocês já estariam mortos."
+    ],
+    "image": "",
+    "buttons": {
+      "text": "Continuar"
+    }
+  },
+  "dialogo22": {
+    "paragraph": [
+      "-Senhora: Tem mais alguém com você?",
+      "-P: Eu na verdade, não conheço ninguém, literalmente.",
+      "-Criança: Como podemos confiar em você?",
+      "-P: Da mesma forma que vou confiar que vocês também não vão me matar."
+    ],
+    "image": "",
+    "buttons": {
+      "text": "Continuar"
+    }
+  },
+  "dialogo23": {
+    "paragraph": [
+      "-Senhora: O que você quer?",
+      "-P: Entender o que está acontecendo.",
+      "-Senhora: Meu filho, eu também não sei, sai de uma cidade onde estava acontecendo um tiroteio e tentei fugir, procurando onde me esconder achei este garoto, eu e ele nós juntamos e estamos a alguns dias fugindo de problemas.",
+      "-P: Acho que acender uma fogueira não foi a melhor ideia, pelo menos não foi alguém tão ruim que veio atrás. Acredito que seja melhor nós afastarmos, tinha alguns soldados na cidade e eles podem vir atrás.",
+      "-Criança: A gente achou uma caverna não tão longe daqui, talvez seja melhor ir pra lá."
+    ],
+    "image": "",
+    "buttons": {
+      "text": "Continuar"
+    }
+  },
+  "dialogo24": {
+    "paragraph": [
+      "-P: Posso perguntar algo que não se pergunta normalmente?",
+      "-Senhora: Pergunte.",
+      "-P: Vocês já mataram alguém?",
+      "-Senhora: Matei dois homens, eu tinha perdido o garoto de vista em uma cidade, e quando o achei tinha dois homens apontando uma pistola para ele, não podia deixa-los matarem ele, então eu peguei minha arma e matei os dois.",
+      "-Criança: Matei 3 homens. Quando eu vim parar nesse lugar, 3 homens me deixaram preso por algumas semanas, depois de um deles não me prender direito,  matei os três."
+    ],
+    "image": "",
+    "buttons": {
+      "text": "Continuar"
+    }
+  },
+  "dialogo25": {
+    "paragraph": [
+      "-P: Vocês sabem o que é essa pulseira no nosso pulso? parece que todo mundo nesse lugar tem essa pulseira.",
+      "-Criança: É quantas pessoas a pessoa já matou, como se fosse um contador. Cada pessoa que você mata adiciona um na pulseira.",
+      "-P: Vocês dois então já mataram alguém?",
+      "-Senhora: Sim, e não me arrependo.",
+      "-Criança: Matamos por necessidade. algumas pessoas aqui matam pra conseguir um número grande na contagem, eles tem um motivo, mas não não tive chance de conversar com muitos deles."
+    ],
+    "image": "",
+    "buttons": {
+      "text": "Continuar"
+    }
+  },
+  "dialogo26": {
+    "paragraph": [
+      "-P: Eu vou fazer uma pergunta que pode parecer idiota, mas por algum motivo eu tenho uma voz na minha cabeça me incentivando a machucar as pessoas, mas não parece que é algo da minha cabeça e sim algo a mais, eu não quero soar igual um louco, mas vocês tem algo do tipo?",
+      "-Senhora: Não tive algo do tipo.",
+      "-Criança: Eu também não, mas um soldado um dia disse que encontrou um homem que estava ficando maluco por causa de alguma coisa na cabeça dele, ele acabou ficando louco e pediu pro soldado matar ele. Se eu fosse você cuidaria pra não ficar doido."
+    ],
+    "image": "",
+    "buttons": {
+      "text": "Continuar"
+    }
+  },
+  "dialogo27": {
+    "paragraph": [
+      "-P: Eu vou fazer outra pergunta que pode parecer idiota, mas por algum motivo eu tenho uma voz na minha cabeça me incentivando a machucar as pessoas, mas não parece que é algo da minha cabeça e sim algo a mais, eu não quero soar igual um louco, mas vocês tem algo do tipo?",
+      "-Senhora: Não tenho algo do tipo.",
+      "-Criança: Eu também não, mas um soldado um dia disse que encontrou um homem que estava ficando maluco por causa de alguma coisa na cabeça dele, ele acabou ficando louco e pediu pro soldado matar ele. Se eu fosse você cuidaria pra não ficar doido."
+    ],
+    "image": "",
+    "buttons": {
+      "text": "Continuar"
+    }
+  },
+  "dialogo28": {
+    "paragraph": [
+      "-P: Então pelo número que tem na pulseira de vocês e na minha, acredito que ela conta quantas pessoas matamos.",
+      "-Senhora: Exatamente. Assim que a pessoa morre, se tu causou algo que pode ter levado ela a morte, a contagem da morte dela vai pra pulseira."
+    ],
+    "image": "",
+    "buttons": {
+      "text": "Continuar"
+    }
+  },
+  "dialogo29": {
+    "paragraph": [
+      "-P: Então pelo número que tem na pulseira de vocês e na minha, acredito que ela conta quantas pessoas matamos.",
+      "-Senhora: Exatamente. Assim que a pessoa morre, se tu causou algo que pode ter levado ela a morte, a contagem da morte dela vai pra pulseira."
+    ],
+    "image": "",
+    "buttons": {
+      "text": "Continuar"
+    }
+  },
+  "dialogo30": {
+    "paragraph": [
+      "-P: Eu vou fazer outra pergunta que pode parecer idiota, mas por algum motivo eu tenho uma voz na minha cabeça me incentivando a machucar as pessoas, mas não parece que é algo da minha cabeça e sim algo a mais, eu não quero soar igual um louco, mas vocês tem algo do tipo?",
+      "-Senhora: Não tenho algo do tipo.",
+      "-Criança: Eu também não, mas um soldado um dia disse que encontrou um homem que estava ficando maluco por causa de alguma coisa na cabeça dele, ele acabou ficando louco e pediu pro soldado matar ele. Se eu fosse você cuidaria pra não ficar doido."
+    ],
+    "image": "",
+    "buttons": {
+      "text": "Continuar"
+    }
+  },
+  "dialogo31": {
+    "paragraph": [
+      "-P: Vocês tiveram motivos para matar essas pessoas?",
+      "-Senhora: Sim, matei dois homens, eu tinha perdido o garoto de vista em uma cidade, e quando o achei tinha dois homens apontando uma pistola para ele, não podia deixa-los matarem ele, então eu peguei minha arma e matei os dois.",
+      "-Criança: Matei 3 homens, quando eu vim parar nesse lugar, 3 homens me deixaram preso por algumas semanas, depois de um deles não prender minha mão direito, peguei a arma deles e matei os 3."
+    ],
+    "image": "",
+    "buttons": {
+      "text": "Continuar"
+    }
+  },
+  "dialogo32": {
+    "paragraph": [
+      "-P: Eu vou fazer mais uma pergunta que pode parecer idiota, mas por algum motivo eu tenho uma voz na minha cabeça me incentivando a machucar as pessoas, mas não parece que é algo da minha cabeça e sim algo a mais, eu não quero soar igual um louco, mas vocês tem algo do tipo?",
+      "-Senhora: Não tenho algo do tipo.",
+      "-Criança: Eu também não, mas um soldado um dia disse que encontrou um homem que estava ficando maluco por causa de alguma coisa na cabeça dele, ele acabou ficando louco e pediu pro soldado matar ele. Se eu fosse você cuidaria pra não ficar doido."
+    ],
+    "image": "",
+    "buttons": {
+      "text": "Continuar"
+    }
+  },
+  "dialogo33": {
+    "paragraph": [
+      "-P: Eu vou fazer uma pergunta que pode parecer idiota, mas por algum motivo eu tenho uma voz na minha cabeça me incentivando a machucar as pessoas, mas não parece que é algo da minha cabeça e sim algo a mais, eu não quero soar igual um louco, mas vocês tem algo do tipo?",
+      "-Senhora: Não tenho algo do tipo.",
+      "-Criança: Eu também não, mas um soldado um dia disse que encontrou um homem que estava ficando maluco por causa de alguma coisa na cabeça dele, ele acabou ficando louco e pediu pro soldado matar ele. Se eu fosse você cuidaria pra não ficar doido."
+    ],
+    "image": "",
+    "buttons": {
+      "text": "Continuar"
+    }
+  },
+  "dialogo34": {
+    "paragraph": [
+      "-P: Vocês tiveram motivos para matar essas pessoas?",
+      "-Senhora: Sim, matei dois homens, eu tinha perdido o garoto de vista em uma cidade, e quando o achei tinha dois homens apontando uma pistola para ele, não podia deixa-los matarem ele, então eu peguei minha arma e matei os dois.",
+      "-Criança: Matei 3 homens, quando eu vim parar nesse lugar, 3 homens me deixaram preso por algumas semanas, depois de um deles não prender minha mão direito, peguei a arma deles e matei os 3."
+    ],
+    "image": "",
+    "buttons": {
+      "text": "Continuar"
+    }
+  },
+  "dialogo35": {
+    "paragraph": [
+      "-P: Posso perguntar algo que não se pergunta normalmente?",
+      "-Senhora: Pergunte.",
+      "-P: Vocês já mataram alguém?",
+      "-Senhora: Matei dois homens, eu tinha perdido o garoto de vista em uma cidade, e quando o achei tinha dois homens apontando uma pistola para ele, não podia deixa-los matarem ele, então eu peguei minha arma e matei os dois.",
+      "-Criança: Matei 3 homens, quando eu vim parar nesse lugar, 3 homens me deixaram preso por algumas semanas, depois de um deles não prender minha mão direito, peguei a arma deles e matei os 3."
+    ],
+    "image": "",
+    "buttons": {
+      "text": "Continuar"
+    }
+  },
+  "dialogo36": {
+    "paragraph": [
+      "-P: Vocês sabem o que é essa pulseira no nosso pulso? parece que todo mundo nesse lugar tem essa pulseira.",
+      "-Criança: É quantas pessoas a pessoa já matou, como se fosse um contador. Cada pessoa que você mata adiciona um na pulseira.",
+      "-P: Vocês dois então já mataram alguém?",
+      "-Senhora: Sim, e não me arrependo.",
+      "-Criança: Matamos por necessidade. algumas pessoas aqui matam pra conseguir um número grande na contagem, eles tem um motivo, mas não não tive chance de conversar com muitos deles."
+    ],
+    "image": "",
+    "buttons": {
+      "text": "Continuar"
+    }
+  },
+  "dialogo37": {
+    "paragraph": [
+      "-P: Vocês sabem o que é essa pulseira no nosso pulso? parece que todo mundo nesse lugar tem essa pulseira.",
+      "-Criança: É quantas pessoas a pessoa já matou, como se fosse um contador. Cada pessoa que você mata adiciona um na pulseira.",
+      "-P: Vocês dois então já mataram alguém?",
+      "-Senhora: Sim, e não me arrependo.",
+      "-Criança: Matamos por necessidade. algumas pessoas aqui matam pra conseguir um número grande na contagem, eles tem um motivo, mas não não tive chance de conversar com muitos deles."
+    ],
+    "image": "",
+    "buttons": {
+      "text": "Continuar"
+    }
+  },
+  "dialogo38": {
+    "paragraph": [
+      "-P: Então pelo julgando pelo número que tem na pulseira de vocês, vocês dois já mataram pessoas.",
+      "-Senhora: Sim, matei dois homens, eu tinha perdido o garoto de vista em uma cidade, e quando o achei tinha dois homens apontando uma pistola para ele, não podia deixa-los matarem ele, então eu peguei minha arma e matei os dois.",
+      "-Criança: Matei 3 homens, quando eu vim parar nesse lugar, 3 homens me deixaram preso por algumas semanas, depois de um deles não prender minha mão direito, peguei a arma deles e matei os 3."
+    ],
+    "image": "",
+    "buttons": {
+      "text": "Continuar"
+    }
+  },
+  "dialogo39": {
+    "paragraph": [
+      "<br>*Dentro da caverna a senhora e a criança decidem descansar e fazer uma fogueira para se aquecer...*<br>",
+      "-Senhora: Você consegue pegar madeira seca para fazermos a fogueira?",
+      "<br>*Você também está cansado, e provavelmente se procurar na caverna pode achar algo para manter o fogo. Você decide que...*<br>"
+    ],
+    "image": "",
+    "buttons": {
+      "text": "Continuar"
+    }
+  },
+  "dialogo40": {
+    "paragraph": [
+      "-P: Consigo sim."
+    ],
+    "image": "",
+    "buttons": {
+      "text": "Continuar"
+    }
+  },
+  "dialogo41": {
+    "paragraph": [
+      "<br>*P sai da caverna e começa a procurar madeira seca, depois de 10 minutos pegando galhos para fogueiras, P decide voltar para a caverna. Chegando na porta da caverna...*<br>",
+      "--Não entra ai.",
+      "--P: Você voltou? Porque eu não deveria entrar, eles estão me esperando."
+    ],
+    "image": "",
+    "buttons": {
+      "text": "Continuar"
+    }
+  },
+  "dialogo42": {
+    "paragraph": [
+      "-Senhora: Antes era um pedido moleque, agora se você quiser comer também vai ter que sair daqui e pegar madeira.",
+      "-P: Ok então."
+    ],
+    "image": "",
+    "buttons": {
+      "text": "Continuar"
+    }
+  },
+  "dialogo43": {
+    "paragraph": [
+      "-P: Então tá voz estúpida, eu vou te escutar essa vez.",
+      "<br>*P Ao invés de entrar sobe na parte de cima da caverna e lá ele espera por algumas horas*<br>"
+    ],
+    "image": "",
+    "buttons": {
+      "text": "Continuar"
+    }
+  },
+  "dialogo44": {
+    "paragraph": [
+      "--P: Eu devo ser idiota por te escut...",
+      "-Soldado1: Aquele idiota percebeu que a gente entrou?",
+      "-Soldado 2: Também não sei, não aguento mais esperar ali dentro.",
+      "-Soldado1: Além do cheiro do corpo da velha e do pirralho.",
+      "-Soldado 2: Depois de um tempo começa a ficar mais forte o cheiro, e eu não acredito que ele fugiu da gente de novo, a gente tá quase chegando no 50.º maluco que a gente matou.",
+      "-Soldado 1: Estamos quase chegando nos 50 mortos.",
+      "--P: Eu tenho que sair daqui."
+    ],
+    "image": "",
+    "buttons": {
+      "text": "Continuar"
+    }
+  },
+  "dialogo45": {
+    "paragraph": [
+      "-P: Em nenhum momento antes eu te escutei, por que eu escutaria agora.",
+      "<br>*P entra na caverna caverna e se depara com o corpo da senhora e da criança no chão, ambos...mortos.*<br>",
+      "<br>*P escuta passos vindo de trás dele e, ele corre para dentro da caverna*<br>"
+    ],
+    "image": "",
+    "buttons": {
+      "text": "Continuar"
+    }
+  },
+  "dialogo46": {
+    "paragraph": [
+      "-Soldado 1: Droga ele correu para dentro da caverna.",
+      "-Soldado 2: Vamos atrás dele, qual a chance da caverna ter uma saída?",
+      "<br>*Dentro da caverna P começa a ir mais fundo na caverna. e encontra uma divisão*<br>"
+    ],
+    "image": "",
+    "buttons": {
+      "text": "Continuar"
+    }
+  },
+  "dialogo47": {
+    "paragraph": [
+      "-Soldado 1: ALGUMA HORA  A GENTE VAI TE ACHAR INDEPENDETE DE QUANTO TEMPO VOCÊ VAI SE ESCONDER."
+    ],
+    "image": "",
+    "buttons": {
+      "text": "Continuar"
+    }
+  },
+  "dialogo48": {
+    "paragraph": [
+      "<br>*P se levanta e tenta se afastar da caverna lentamente*<br>",
+      "<br>*Clac*<br>"
+    ],
+    "image": "",
+    "buttons": {
+      "text": "Continuar"
+    }
+  },
+  "dialogo49": {
+    "paragraph": [
+      "--P: DROGA.",
+      "-Soldado 1: O que foi isso ali em cima?",
+      "-Soldado 2: Vamos lá rápido pode ser mais algum pateta."
+    ],
+    "image": "",
+    "buttons": {
+      "text": "Continuar"
+    }
+  },
+  "dialogo50": {
+    "paragraph": [
+      "<br>*P se levanta e começa a correr para longe da caverna*<br>",
+      "<br>*Clac*<br>"
+    ],
+    "image": "",
+    "buttons": {
+      "text": "Continuar"
+    }
+  },
+  "dialogo51": {
+    "paragraph": [
+      "-Soldado 1: Tem alguém lá em cima!",
+      "-Soldado: Vamos logo pra não perder ele de vista!"
+    ],
+    "image": "",
+    "buttons": {
+      "text": "Continuar"
+    }
+  },
+  "dialogo52": {
+    "paragraph": [
+      "<br>*P entra no caminho da esquerda e acha o corpo de um homem, morto já a muito tempo.*<br>",
+      "--P: Uma granada, pode ser útil em algum momento.",
+      "--É melhor pegar tudo que você quer rápido antes que eles."
+    ],
+    "image": "",
+    "buttons": {
+      "text": "Continuar"
+    }
+  },
+  "dialogo53": {
+    "paragraph": [
+      "-Soldado 1: NÃO VAI ADIANTAR FUGIR, ALGUMA HORA A GENTE VAI TE ACHAR INDEPENDE DE ONDE VOCÊ ESTEJA",
+      "<br>*P pega a granada guarda em seu bolso e entra mais fundo na caverna.<br>"
+    ],
+    "image": "",
+    "buttons": {
+      "text": "Continuar"
+    }
+  },
+  "dialogo54": {
+    "paragraph": [
+      "<br>*P entra no caminho da direita e acha o corpo de um homem, morto já a muito tempo.*<br>",
+      "--P: Uma granada, pode ser útil em algum momento.",
+      "--É melhor pegar tudo que você quer rápido antes que eles."
+    ],
+    "image": "",
+    "buttons": {
+      "text": "Continuar"
+    }
+  },
+  "dialogo55": {
+    "paragraph": [
+      "-Soldado 1: NÃO VAI ADIANTAR FUGIR, ALGUMA HORA A GENTE VAI TE ACHAR INDEPENDE DE ONDE VOCÊ ESTEJA",
+      "<br>*P pega a granada guarda em seu bolso e entra mais fundo na caverna.<br>"
+    ],
+    "image": "",
+    "buttons": {
+      "text": "Continuar"
+    }
+  },
+  "dialogo56": {
+    "paragraph": [
+      "<br>*Depois de um tempo correndo, P percebe duas coisas..*<br>",
+      "--P: Se eles não atiraram até agora para me matar, ou eles não querem me matar com tiros ou não tem mais balas, e eu preciso me esconder deles de alguma forma, estou chegando perto de mais uma cidade, se eu entrar em um prédio talvez eu consigo me esconder deles."
+    ],
+    "image": "",
+    "buttons": {
+      "text": "Continuar"
+    }
+  },
+  "dialogo57": {
+    "image": "",
+    "buttons": {
+      "text": "Continuar"
+    }
+  }
+}
