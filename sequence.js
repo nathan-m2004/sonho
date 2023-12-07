@@ -442,7 +442,16 @@ async function genocide01() {
     if (escolha == "MATAR ELES!") {
         await showDialogSequence(12, 13)
     }
-    genocide02()
+
+    questText(1)
+    trigger = () => {
+        if (weapons.mp40.active == true) {
+            setTimeout(() => {
+                closeBuys(); genocide02();
+            }, 1000)
+            trigger = null
+        }
+    }
 }
 
 async function genocide02() {
